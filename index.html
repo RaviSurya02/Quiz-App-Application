@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="header">
+            <h1>Frontend Developer Quiz</h1>
+            <div class="progress-container">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+        </div>
+        
+        <div class="difficulty-selector">
+            <button class="difficulty-btn" data-level="beginner">Beginner</button>
+            <button class="difficulty-btn" data-level="intermediate">Intermediate</button>
+            <button class="difficulty-btn" data-level="advanced">Advanced</button>
+        </div>
+        
+        <div class="question-container hide">
+            <h2 id="question">Question goes here</h2>
+            <div id="answer-buttons" class="btn-grid"></div>
+        </div>
+        
+        <div class="controls">
+            <button id="next-btn" class="next-btn hide">Next</button>
+        </div>
+        
+        <div id="score" class="score hide"></div>
+        
+        <footer>
+            <p>© 2025 Pataballa Ravi Surya. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
